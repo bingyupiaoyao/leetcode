@@ -1,9 +1,8 @@
 /************************************************************************/
 /*
-题目:
-作者:              bingyupiaoyao
-联系方式:            wulingpku520@gmail.com
-最后修改时间:        2016/04/04
+Author:             bingyupiaoyao
+Email:              wulingpku520@gmail.com
+Time:               2016/04/04
 
 Total Accepted: 65930 Total Submissions: 221298 Difficulty: Medium
 
@@ -39,17 +38,8 @@ using namespace std;
 
 /************************************************************************/
 /*
-作者:
-时间复杂度:
-空间复杂度:
-解题思路：
 Top-down
-dp[i][j] 表示到i层，j个最小值
-解题步骤：
-1）
-2）
-3）
-利弊总结：
+dp[i][j]: min sum to level i and j'th
 */
 /************************************************************************/
 class Solution01
@@ -84,17 +74,16 @@ private:
 
 int main()
 {
-    //获得所有输入
+    //Input
     vector<vector<int>>input = { {-1},{2, 3},{1, -1, -3} };
 
-    //设置输出变量
+    //Output
 
-    //分隔符
     cout << "----------solution01----------" << endl;
     //Solution01
     Solution01 solution01;
     solution01.minimumTotal(input);
 
-    //暂停看结果
+    //Pause
     system("pause");
 }
