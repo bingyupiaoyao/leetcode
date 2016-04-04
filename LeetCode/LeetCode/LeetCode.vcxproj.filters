@@ -18,8 +18,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0139_WordBreak.cpp">
-      <Filter>Code</Filter>
+    <ClCompile Include="0140_WordBreakII.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
