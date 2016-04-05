@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0140_WordBreakII.cpp">
+    <ClCompile Include="0072_EditDistance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
